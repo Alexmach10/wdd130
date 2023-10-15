@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: gray;
+  }
+.circles_img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.desk_img{
+    border-radius: 100%;
+    width: 30%;
+    border: 20px solid rgb(61, 61, 61);
+}
+.graphic_img{
+    border-radius: 100%;
+    width: 30%;
+    border: 20px solid rgb(61, 61, 61);
+}
+.person_img{
+    border-radius: 100%;
+    width: 30%;
+    border: 20px solid rgb(61, 61, 61);
+}
