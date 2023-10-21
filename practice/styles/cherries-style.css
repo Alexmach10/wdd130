@@ -1,0 +1,37 @@
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tittle{
+    text-align: center;
+    align-self:center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+}
+
+.tittle_{
+    text-align: center;
+    align-self:normal;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    z-index: 1;
+    background-color: gray;
+}
+
+.cherries_img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: white;
+}
+
+.sub-tittle{
+    text-align: center;
+    align-self:normal;
+    grid-column: 2/3;
+    grid-row: 2/2;
+    z-index: 1;
+    background-color: gray;
+}
