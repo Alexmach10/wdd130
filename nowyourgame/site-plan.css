@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #71B48D   ;
-  --secondary-color: #404e7c ;
-  --accent1-color: #260f26;
-  --accent2-color: #B33838;
+  --primary-color: #84DCC6;
+  --secondary-color: #D6EDFF;
+  --accent1-color: #ACD7EC;
+  --accent2-color: #8B95C9;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Open Sans";
