@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: #84DCC6;
   --secondary-color: #D6EDFF;
   --accent1-color: #ACD7EC;
-  --accent2-color: #8B95C9;
+  --accent2-color: #6074d8;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Open Sans";
@@ -18,9 +18,9 @@ Fonts are separated by a | */
   --headline-color-on-white: #396E94;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #8B95C9  ;
-  --nav-link-color: white;
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #6074d8  ;
+  --nav-link-color: black;
   --nav-background-color: #8B95C9;
   --nav-hover-link-color: black;
   --nav-hover-background-color: #ACD7EC;
