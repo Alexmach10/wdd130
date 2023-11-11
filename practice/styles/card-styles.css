@@ -1,0 +1,60 @@
+#p{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home-grid{
+    grid-column: 2/3;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 0.1fr 0.1fr;
+}
+.ice-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.card-img{
+    width: 100%;
+}
+.text{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align:center;
+}
+.read-num{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align:center;
+    background-color:rgb(0, 140, 255);
+}
+.views-num{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align:center;
+    background-color: rgb(0, 140, 255);
+}
+.comments-num{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align:center;
+    background-color: rgb(0, 140, 255);
+}
+.read{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    text-align:center;
+    background-color: rgb(0, 140, 255);
+}
+.views{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    text-align:center;
+    background-color: rgb(0, 140, 255);
+}
+.comments{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    text-align:center;
+    background-color: rgb(0, 140, 255);
+}
