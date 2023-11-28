@@ -78,6 +78,8 @@
     display: grid;
     grid-template-rows:1fr;
     padding-top: 35px;
+    width: 1430px;
+    height: 600px;
     
 }
 
@@ -126,6 +128,8 @@
 {
     display: grid;
     padding-top: 35px;
+    width: 1430px;
+    height: 100px;
 }
 
 .social
