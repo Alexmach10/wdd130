@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playpen+Sans:wght@100&display=swap');
 
-
+body {
+    font-family: Raleway, Arial, sans-serif;
+}
 
 .header
 {
@@ -24,12 +27,17 @@
     grid-template-columns:1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    background-color: white;
+    background-color: #8B95C9;
     border-style: groove;
     width: 1200px;
     height: 100px;
-
 }
+
+nav a{
+    color: white;
+    font-size: 33px;
+}
+
 .device-icon
 {
     width: 100px;
@@ -89,6 +97,7 @@
     grid-template-rows:1fr 1fr 1fr;
     grid-template-columns:1fr 0.1fr;
     align-items: center;
+    background-color: #D6EDFF;
 }
 
 .player-img
@@ -111,6 +120,7 @@
     border-style: groove;
     z-index:1;
     padding: 25px;
+    background-color: white;
 }
 
 .date
@@ -130,16 +140,23 @@
     padding-top: 35px;
     width: 1430px;
     height: 100px;
+    background-color: #D6EDFF;
 }
 
 .social
 {
+    background-color: #84DCC6;
     grid-column: 1/4;
     display: grid; 
     grid-template-columns:1fr 6fr 0.5fr 0.5fr 0.5fr;
     align-items: center;
     justify-items: center;
     border-style: groove;
+}
+
+footer a{
+    color: #396E94;
+    font-size: 33px;
 }
 
 .site-plan-link
