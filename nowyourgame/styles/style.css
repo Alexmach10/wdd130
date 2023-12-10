@@ -239,6 +239,7 @@ footer a{
     grid-template-rows:0.5fr 1fr 1fr;
     background-color: white;
     padding: 25px;
+    border-style: groove;
 }
 
 .space
@@ -265,4 +266,114 @@ footer a{
     width: 1350px;
     justify-self: center;
     padding-top: 55px;
+}
+
+/*Games*/
+
+.games_img
+{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 500px;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-style: groove;
+    width: 1430px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#games-image
+{
+    grid-column: 1/6;
+    grid-row: 1/2;
+    width: 140%;
+    z-index:1;
+}
+
+.games-grid
+{
+    display: grid;
+    grid-template-rows:1fr;
+    padding-top: 35px;
+    width: 1430px;
+    height: auto;
+    
+}
+
+.sections-games
+{
+    display: grid; 
+    grid-template-columns: 0.1fr 6fr 0.1fr;
+    grid-template-rows: 0.5fr 0.5fr 3fr;
+    align-items: center;
+    background-color: #D6EDFF;
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+
+.p-img
+{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    width: 200px;
+    justify-self:left;
+    z-index: 3;
+    background-color: #396E94;
+    border-style: groove;
+}
+
+.game-info
+{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr 0.7fr 0.1fr;
+    grid-template-rows:0.1fr 0.7fr 1fr 0.1fr;
+    background-color: white;
+    padding: 25px;
+    border-style: groove;
+}
+
+.space
+{
+    height: 25px;
+}
+
+.game-info h2
+{
+    grid-column: 2/5;
+    grid-row: 1/2;
+    justify-self: center;
+}
+.game-info h3
+{
+    grid-column: 2/5;
+    grid-row: 2/3;
+    padding: 35px;
+}
+
+.long-img
+{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 800px;
+    justify-self: center;
+}
+
+.short-img
+{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    width: 350px;
+    justify-self: center;
+    align-self: center;
+}
+
+.game-info a
+{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding-top: 25px;
 }
