@@ -4,6 +4,14 @@ body {
     font-family: Raleway, Arial, sans-serif;
 }
 
+#content{
+    width: 100%;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
 .header
 {
     display: grid;
@@ -376,4 +384,9 @@ footer a{
     grid-column: 2/3;
     grid-row: 4/5;
     padding-top: 25px;
+}
+
+.social h3 {
+    grid-column: 2/3;  
+    grid-row: 1/2;
 }
